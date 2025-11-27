@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Login</h2>
+
+<form method="POST" action="{{ url_for('login') }}">
+  <label for="mobile">Mobile Number:</label>
+  <input type="text" id="mobile" name="mobile" required placeholder="Enter your mobile">
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required placeholder="Enter your password">
+
+  <button type="submit">Login</button>
+</form>
+
+<p class="mt-3">
+  <a href="{{ url_for('forgot_password') }}">Forgot your password?</a>
+</p>
+
+<p>
+  Don’t have an account?
+  <a href="{{ url_for('signup') }}">Sign up here</a>.
+</p>
+{% endblock %}

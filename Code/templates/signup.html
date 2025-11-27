@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Signup</h2>
+<form method="POST" action="/signup">
+  <label>Email:</label>
+  <input type="email" name="email" required
+         placeholder="example@mail.com"
+         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+         title="Enter a valid email address">
+
+  <label>Company Name:</label>
+  <input type="text" name="company" required>
+
+  <label>Mobile Number:</label>
+  <input type="text" name="mobile" required
+         placeholder="10-digit number"
+         pattern="[0-9]{10}"
+         title="Enter a valid 10-digit mobile number">
+
+  <label>Business Owner Name:</label>
+  <input type="text" name="owner" required>
+
+  <label>Password:</label>
+  <input type="password" id="password" name="password" required
+         placeholder="At least 8 chars, 1 uppercase, 1 lowercase, 1 number, 1 special"
+         minlength="8"
+         pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}"
+         title="Password must be at least 8 characters long, include uppercase, lowercase, a number, and a special character">
+
+  <label>Confirm Password:</label>
+  <input type="password" id="confirm_password" name="confirm_password" required>
+
+  <button type="submit">Signup</button>
+</form>
+
+<script>
+  //  Confirm password check (frontend)
+  const password = document.getElementById("password");
+  const confirm_password = document.getElementById("confirm_password");
+
+  confirm_password.addEventListener("input", function() {
+    if (password.value !== confirm_password.value) {
+      confirm_password.setCustomValidity("Passwords do not match");
+    } else {
+      confirm_password.setCustomValidity("");
+    }
+  });
+</script>
+{% endblock %}

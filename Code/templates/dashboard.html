@@ -1,0 +1,204 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>📊 Dashboard</h2>
+
+<!-- Upload form -->
+<section style="margin: 18px 0;">
+  <form method="POST" action="{{ url_for('dashboard') }}" enctype="multipart/form-data" style="display:flex; gap:10px; align-items:center;">
+    <label for="file" style="font-weight:600;">Upload data (CSV / XLS / XLSX):</label>
+    <input type="file" id="file" name="file" accept=".csv, .xls, .xlsx" required>
+    <button type="submit">Upload & Analyze</button>
+  </form>
+  <p style="color:#666; margin-top:8px;">Allowed: CSV, XLS, XLSX. File must include columns: Order Date, Region, Category, Sales, Profit, Discount, Order ID, Customer Name.</p>
+</section>
+
+<!-- Show backend error modal when processing fails -->
+{% if error_message %}
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  if (typeof Swal !== 'undefined') {
+    Swal.fire({
+      icon: 'error',
+      title: 'Processing error',
+      /*
+        We intentionally render HTML here (|safe) so the backend can highlight column names
+        like <strong>Profit</strong>. Only use |safe if you ensure the backend builds messages
+        without user-controlled HTML (we recommend the server escapes user values).
+      */
+      html: '<pre style="text-align:left; white-space:pre-wrap; max-height:300px; overflow:auto;">{{ error_message|safe }}</pre>'
+    });
+  } else {
+    alert("Processing error:\n" + "{{ error_message|e }}");
+  }
+});
+</script>
+{% endif %}
+
+<!-- Show backend success modal when processing succeeds -->
+{% if success_message %}
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  if (typeof Swal !== 'undefined') {
+    Swal.fire({
+      icon: 'success',
+      title: 'Success',
+      html: '<pre style="text-align:left; white-space:pre-wrap; max-height:200px; overflow:auto;">{{ success_message|e }}</pre>'
+    });
+  } else {
+    alert("Success:\n" + "{{ success_message|e }}");
+  }
+});
+</script>
+{% endif %}
+
+<hr>
+
+{# Use results dict (may be None) #}
+{% set r = results or {} %}
+
+<!-- Summary numbers -->
+{% if r.total_sales is defined %}
+<div style="display:flex; gap:20px; align-items:center; margin:12px 0;">
+  <div style="padding:12px; border-radius:8px; background:#f6f8fa; min-width:160px;">
+    <div style="font-size:13px; color:#666;">Total Sales</div>
+    <div style="font-size:20px; font-weight:700;">₹{{ r.total_sales }}</div>
+  </div>
+  <div style="padding:12px; border-radius:8px; background:#f6f8fa; min-width:160px;">
+    <div style="font-size:13px; color:#666;">Total Profit</div>
+    <div style="font-size:20px; font-weight:700;">₹{{ r.total_profit }}</div>
+  </div>
+  {% if r.best_year %}
+  <div style="padding:12px; border-radius:8px; background:#f6f8fa; min-width:160px;">
+    <div style="font-size:13px; color:#666;">Best Year (by sales)</div>
+    <div style="font-size:20px; font-weight:700;">{{ r.best_year }}</div>
+  </div>
+  {% endif %}
+</div>
+{% endif %}
+
+<!-- Year table -->
+{% if r.year_table %}
+<h3>📅 Year-wise Summary</h3>
+<table border="1" cellpadding="6" style="border-collapse:collapse; width:100%; margin-bottom:18px;">
+  <thead>
+    <tr style="background:#efefef;">
+      <th style="padding:8px; text-align:left;">Year</th>
+      <th style="padding:8px; text-align:right;">Sales</th>
+      <th style="padding:8px; text-align:right;">Profit</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in r.year_table %}
+    <tr>
+      <td style="padding:8px;">{{ row.year }}</td>
+      <td style="padding:8px; text-align:right;">{{ row.sales }}</td>
+      <td style="padding:8px; text-align:right;">{{ row.profit }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+
+<!-- Top / Bottom products -->
+<div style="display:flex; gap:30px; flex-wrap:wrap;">
+  {% if r.top_products %}
+  <div style="flex:1; min-width:300px;">
+    <h3>🏆 Top Products</h3>
+    <table style="width:100%; border-collapse:collapse;">
+      <thead><tr style="background:#fafafa;"><th style="padding:6px; text-align:left;">Product</th><th style="padding:6px; text-align:right;">Sales</th></tr></thead>
+      <tbody>
+        {% for p in r.top_products %}
+        <tr><td style="padding:6px;">{{ p.product }}</td><td style="padding:6px; text-align:right;">{{ p.sales }}</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+
+  {% if r.bottom_products %}
+  <div style="flex:1; min-width:300px;">
+    <h3>⬇️ Bottom Products</h3>
+    <table style="width:100%; border-collapse:collapse;">
+      <thead><tr style="background:#fafafa;"><th style="padding:6px; text-align:left;">Product</th><th style="padding:6px; text-align:right;">Sales</th></tr></thead>
+      <tbody>
+        {% for p in r.bottom_products %}
+        <tr><td style="padding:6px;">{{ p.product }}</td><td style="padding:6px; text-align:right;">{{ p.sales }}</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+</div>
+
+<!-- Product forecasts -->
+{% if r.product_forecasts %}
+<h3>🔮 Product Forecasts</h3>
+<ul>
+  {% for pf in r.product_forecasts %}
+    <li style="margin-bottom:8px;">
+      <strong>{{ pf.product }}</strong> — Past: {{ pf.history }} — Forecast: {{ pf.forecast }}
+    </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+<!-- Charts -->
+{% if charts %}
+<h3>📈 Visual Charts</h3>
+<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:18px; margin-top:12px;">
+  {% for chart in charts %}
+  <div style="border:1px solid #e6e6e6; padding:8px; border-radius:6px; background:#fff;">
+    <img src="{{ chart }}" alt="chart" style="width:100%; height:auto; display:block;">
+  </div>
+  {% endfor %}
+</div>
+{% else %}
+<p style="margin-top:18px; color:#666;">No charts to display yet. Upload a valid Superstore file above.</p>
+{% endif %}
+
+{# Predicted product trends (guarded) #}
+{% if r.increasing_products or r.decreasing_products or r.flat_products %}
+  <h3>🔔 Predicted Product Trends (next 3 months)</h3>
+
+  {% if r.increasing_products %}
+    <h4>📈 Products likely to increase</h4>
+    <table border="1" cellpadding="6">
+      <tr><th>Product</th><th>Recent avg (last 3)</th><th>Forecast avg (3)</th><th>% change</th></tr>
+      {% for p in r.increasing_products %}
+      <tr>
+        <td>{{ p.product }}</td>
+        <td>{{ p.recent_mean }}</td>
+        <td>{{ p.forecast_mean }}</td>
+        <td>{{ p.pct_change }}%</td>
+      </tr>
+      {% endfor %}
+    </table>
+  {% endif %}
+
+  {% if r.decreasing_products %}
+    <h4>📉 Products likely to decrease</h4>
+    <table border="1" cellpadding="6">
+      <tr><th>Product</th><th>Recent avg (last 3)</th><th>Forecast avg (3)</th><th>% change</th></tr>
+      {% for p in r.decreasing_products %}
+      <tr>
+        <td>{{ p.product }}</td>
+        <td>{{ p.recent_mean }}</td>
+        <td>{{ p.forecast_mean }}</td>
+        <td>{{ p.pct_change }}%</td>
+      </tr>
+      {% endfor %}
+    </table>
+  {% endif %}
+
+  {% if r.flat_products %}
+    <h4>➖ Flat / Unknown</h4>
+    <ul>
+      {% for p in r.flat_products %}
+        <li>{{ p.product }} — {{ p.reason if p.reason is defined else (p.pct_change ~ '%') }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endif %}
+
+{% endblock %}

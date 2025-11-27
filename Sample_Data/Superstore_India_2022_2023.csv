@@ -1,0 +1,301 @@
+Order Date,Region,Category,Sales,Profit,Discount,Order ID,Customer Name
+2023-04-14,North,Electronics,26002.05,3270.25,0.2,IND-10000,Rekha Sharma
+2023-06-29,East,Office Supplies,10253.61,1262.28,0.06,IND-10001,Rohit Desai
+2022-02-13,East,Furniture,3226.79,185.7,0.16,IND-10002,Pooja Singh
+2023-01-06,Central,Furniture,15863.03,1310.23,0.17,IND-10003,Shubham Dixit
+2022-11-17,North,Electronics,24963.98,4058.91,0.1,IND-10004,Vishal Pandey
+2022-01-05,West,Furniture,22097.04,2483.47,0.11,IND-10005,Arjun Yadav
+2023-12-17,North,Electronics,12584.81,2233.51,0.07,IND-10006,Anjali Verma
+2022-06-08,West,Furniture,28346.42,2476.59,0.07,IND-10007,Komal Bansal
+2022-04-05,West,Furniture,11139.57,1881.68,0.24,IND-10008,Anjali Verma
+2023-03-10,Central,Office Supplies,5594.15,583.64,0.08,IND-10009,Amit Shah
+2023-12-25,East,Furniture,8699.11,998.16,0.24,IND-10010,Manish Gupta
+2022-04-27,East,Electronics,8546.79,2028.55,0.05,IND-10011,Priya Nair
+2023-04-17,Central,Electronics,15445.68,2611.28,0.21,IND-10012,Suresh Mehta
+2022-06-21,West,Office Supplies,6709.23,718.86,0.17,IND-10013,Neha Patil
+2023-05-18,South,Furniture,10520.12,1699.71,0.15,IND-10014,Rahul Khanna
+2022-09-03,South,Electronics,28625.6,1918.7,0.09,IND-10015,Rekha Sharma
+2022-09-17,West,Furniture,25467.27,2009.28,0.01,IND-10016,Kavita Rao
+2023-10-18,East,Furniture,10515.25,2401.82,0.04,IND-10017,Suresh Mehta
+2022-11-12,West,Electronics,1546.22,165.23,0.2,IND-10018,Suresh Mehta
+2023-05-24,North,Furniture,2262.82,133.03,0.09,IND-10019,Shubham Dixit
+2022-09-22,South,Furniture,14571.88,2888.07,0.14,IND-10020,Anjali Verma
+2023-09-27,Central,Office Supplies,19041.01,1923.9,0.24,IND-10021,Nisha Jain
+2022-02-07,South,Electronics,5957.32,340.63,0.13,IND-10022,Suresh Mehta
+2023-05-24,Central,Office Supplies,4552.68,289.15,0.08,IND-10023,Suresh Mehta
+2023-11-09,East,Electronics,16172.81,1472.27,0.23,IND-10024,Nisha Jain
+2023-04-14,South,Electronics,10461.13,680.89,0.24,IND-10025,Rekha Sharma
+2023-03-10,West,Furniture,14522.67,1921.62,0.03,IND-10026,Pooja Singh
+2023-12-02,West,Furniture,24192.24,3576.96,0.16,IND-10027,Deepak Joshi
+2022-01-05,North,Furniture,29813.69,7294.25,0.05,IND-10028,Rekha Sharma
+2022-09-10,West,Electronics,22824.45,2013.07,0.08,IND-10029,Rohit Desai
+2023-09-10,North,Office Supplies,10738.66,2406.04,0.16,IND-10030,Shubham Dixit
+2023-10-23,Central,Office Supplies,28292.44,5735.67,0.17,IND-10031,Amit Shah
+2023-04-03,East,Office Supplies,5680.46,1057.86,0.21,IND-10032,Suresh Mehta
+2022-10-03,West,Furniture,10145.13,1042.25,0.05,IND-10033,Rekha Sharma
+2022-01-30,Central,Furniture,15817.85,1374.93,0.03,IND-10034,Komal Bansal
+2022-07-08,East,Electronics,19228.0,4780.03,0.04,IND-10035,Rekha Sharma
+2023-10-24,West,Office Supplies,8870.12,1988.8,0.21,IND-10036,Shubham Dixit
+2023-10-02,East,Office Supplies,2027.31,440.24,0.21,IND-10037,Anjali Verma
+2023-11-27,East,Furniture,11993.21,646.09,0.08,IND-10038,Shubham Dixit
+2023-06-16,Central,Office Supplies,9566.39,782.36,0.08,IND-10039,Vishal Pandey
+2022-12-14,East,Furniture,15990.04,3758.01,0.04,IND-10040,Harish Soni
+2023-05-12,North,Office Supplies,5609.6,1211.3,0.01,IND-10041,Shubham Dixit
+2022-06-02,East,Office Supplies,20056.77,3976.24,0.24,IND-10042,Rahul Khanna
+2023-07-11,East,Electronics,17343.88,3203.3,0.14,IND-10043,Komal Bansal
+2022-07-09,North,Office Supplies,6107.68,1397.38,0.22,IND-10044,Vishal Pandey
+2022-05-25,Central,Office Supplies,29386.48,5363.64,0.01,IND-10045,Priya Nair
+2022-11-02,North,Office Supplies,16839.54,3944.17,0.22,IND-10046,Nisha Jain
+2023-06-25,North,Furniture,27584.19,4367.59,0.23,IND-10047,Ravi Kumar
+2022-06-01,South,Electronics,27511.44,3603.51,0.13,IND-10048,Kavita Rao
+2023-06-25,West,Furniture,15354.08,3383.16,0.24,IND-10049,Neha Patil
+2022-12-02,West,Office Supplies,22422.7,2531.42,0.17,IND-10050,Arjun Yadav
+2022-08-18,North,Electronics,4717.24,751.09,0.22,IND-10051,Priya Nair
+2022-07-09,West,Office Supplies,15021.26,3635.88,0.02,IND-10052,Amit Shah
+2023-03-22,East,Furniture,23824.32,3931.36,0.11,IND-10053,Kavita Rao
+2022-06-22,Central,Office Supplies,13910.06,1246.62,0.15,IND-10054,Amit Shah
+2022-01-17,West,Furniture,28013.61,6560.4,0.08,IND-10055,Neha Patil
+2022-11-11,North,Office Supplies,1812.67,402.92,0.04,IND-10056,Nisha Jain
+2023-02-22,Central,Electronics,7061.84,405.31,0.04,IND-10057,Amit Shah
+2022-08-02,West,Electronics,20798.97,1163.65,0.16,IND-10058,Deepak Joshi
+2023-09-28,West,Office Supplies,23809.18,4112.68,0.14,IND-10059,Manish Gupta
+2022-02-03,South,Office Supplies,21490.51,2447.21,0.15,IND-10060,Komal Bansal
+2022-02-03,Central,Furniture,18190.22,4000.27,0.06,IND-10061,Amit Shah
+2022-08-02,West,Furniture,19169.05,3973.95,0.24,IND-10062,Rahul Khanna
+2023-12-16,West,Electronics,4569.67,716.5,0.11,IND-10063,Amit Shah
+2022-07-13,West,Electronics,14434.97,2659.29,0.1,IND-10064,Rekha Sharma
+2022-04-21,North,Office Supplies,12200.18,1640.52,0.23,IND-10065,Neha Patil
+2022-12-01,South,Electronics,21144.65,2288.52,0.18,IND-10066,Priya Nair
+2023-03-07,Central,Electronics,18287.29,2966.88,0.07,IND-10067,Deepak Joshi
+2022-10-31,South,Office Supplies,22764.35,2115.41,0.08,IND-10068,Manish Gupta
+2022-07-23,West,Office Supplies,27869.46,3151.98,0.03,IND-10069,Harish Soni
+2023-03-20,East,Electronics,11481.24,2473.17,0.12,IND-10070,Anjali Verma
+2023-12-27,Central,Office Supplies,14305.36,1741.47,0.22,IND-10071,Shubham Dixit
+2023-09-05,Central,Electronics,17784.4,1412.22,0.11,IND-10072,Rekha Sharma
+2023-12-07,Central,Office Supplies,16276.68,2652.91,0.13,IND-10073,Sneha Kapoor
+2023-05-06,Central,Electronics,24932.11,3991.77,0.17,IND-10074,Neha Patil
+2022-11-29,Central,Electronics,24462.68,4966.54,0.04,IND-10075,Neha Patil
+2023-01-08,Central,Office Supplies,20267.8,2554.85,0.1,IND-10076,Deepak Joshi
+2022-12-07,Central,Electronics,10526.59,1445.66,0.07,IND-10077,Manish Gupta
+2023-07-11,Central,Office Supplies,27242.56,4230.87,0.2,IND-10078,Arjun Yadav
+2022-08-24,East,Furniture,12831.71,2167.74,0.24,IND-10079,Rekha Sharma
+2022-10-28,East,Electronics,12015.39,1348.26,0.11,IND-10080,Arjun Yadav
+2023-09-21,Central,Electronics,28933.65,4261.36,0.16,IND-10081,Sneha Kapoor
+2022-03-30,West,Office Supplies,17161.92,3233.42,0.14,IND-10082,Rahul Khanna
+2022-11-17,Central,Office Supplies,25076.64,2890.62,0.13,IND-10083,Amit Shah
+2022-04-26,West,Office Supplies,29442.42,1880.9,0.22,IND-10084,Nisha Jain
+2023-11-01,East,Office Supplies,14917.38,1438.67,0.01,IND-10085,Deepak Joshi
+2023-12-14,North,Office Supplies,5675.6,616.45,0.1,IND-10086,Rohit Desai
+2022-03-09,South,Furniture,13177.28,1815.57,0.24,IND-10087,Shubham Dixit
+2022-07-08,North,Electronics,8861.02,1026.84,0.22,IND-10088,Sneha Kapoor
+2022-07-27,South,Furniture,26701.63,6065.53,0.08,IND-10089,Suresh Mehta
+2022-05-13,Central,Office Supplies,24061.2,5994.32,0.16,IND-10090,Ravi Kumar
+2023-01-18,East,Electronics,21667.9,1589.62,0.19,IND-10091,Ravi Kumar
+2023-10-20,South,Office Supplies,6696.62,770.02,0.1,IND-10092,Priya Nair
+2022-09-22,West,Furniture,6874.78,1521.35,0.07,IND-10093,Neha Patil
+2022-11-18,East,Office Supplies,13272.3,883.37,0.11,IND-10094,Sneha Kapoor
+2023-05-12,North,Office Supplies,7271.88,1448.74,0.09,IND-10095,Nisha Jain
+2023-02-25,West,Office Supplies,2591.67,490.1,0.25,IND-10096,Sneha Kapoor
+2022-03-31,West,Electronics,28024.39,6346.11,0.23,IND-10097,Sneha Kapoor
+2022-06-26,South,Office Supplies,28060.77,2231.7,0.05,IND-10098,Komal Bansal
+2023-07-28,East,Electronics,2241.21,188.7,0.07,IND-10099,Sneha Kapoor
+2023-11-16,East,Office Supplies,23751.26,1943.82,0.06,IND-10100,Harish Soni
+2023-06-01,West,Electronics,11610.32,2856.3,0.04,IND-10101,Manish Gupta
+2023-02-22,North,Electronics,9579.76,1678.15,0.16,IND-10102,Amit Shah
+2023-12-01,West,Office Supplies,23879.8,1683.06,0.11,IND-10103,Anjali Verma
+2022-01-06,North,Office Supplies,11474.39,1140.73,0.02,IND-10104,Priya Nair
+2023-07-12,West,Electronics,13447.56,2988.24,0.21,IND-10105,Pooja Singh
+2023-09-02,East,Furniture,21855.07,3324.55,0.11,IND-10106,Priya Nair
+2022-09-15,South,Office Supplies,4145.76,434.2,0.2,IND-10107,Rahul Khanna
+2023-04-11,East,Furniture,27767.35,5894.68,0.14,IND-10108,Harish Soni
+2022-06-17,East,Furniture,13297.68,1003.67,0.1,IND-10109,Rekha Sharma
+2022-04-30,North,Electronics,20288.71,4641.27,0.19,IND-10110,Harish Soni
+2023-03-25,South,Office Supplies,19001.42,2689.66,0.06,IND-10111,Ravi Kumar
+2023-08-24,South,Office Supplies,2733.93,252.53,0.21,IND-10112,Rohit Desai
+2022-05-10,East,Office Supplies,13508.55,2200.76,0.22,IND-10113,Vishal Pandey
+2022-03-20,Central,Office Supplies,17842.16,1841.6,0.15,IND-10114,Pooja Singh
+2023-04-26,South,Furniture,11227.58,1969.47,0.14,IND-10115,Pooja Singh
+2022-03-20,South,Furniture,13409.46,2605.03,0.16,IND-10116,Arjun Yadav
+2023-02-16,East,Furniture,15186.1,1243.3,0.03,IND-10117,Rohit Desai
+2023-06-14,South,Furniture,10470.6,1945.05,0.02,IND-10118,Rekha Sharma
+2022-06-11,East,Furniture,29595.68,2464.51,0.15,IND-10119,Shubham Dixit
+2023-06-30,North,Electronics,19682.31,4537.33,0.02,IND-10120,Harish Soni
+2022-09-16,Central,Electronics,9580.7,1642.41,0.0,IND-10121,Pooja Singh
+2022-07-29,East,Office Supplies,5672.02,482.02,0.15,IND-10122,Shubham Dixit
+2023-12-27,West,Electronics,19004.97,4086.88,0.2,IND-10123,Rohit Desai
+2023-09-11,Central,Electronics,10216.98,1778.28,0.07,IND-10124,Rekha Sharma
+2022-08-23,South,Office Supplies,10612.99,683.33,0.15,IND-10125,Harish Soni
+2022-01-24,North,Electronics,4533.0,905.41,0.17,IND-10126,Nisha Jain
+2022-09-11,Central,Furniture,11695.49,2125.87,0.08,IND-10127,Deepak Joshi
+2022-09-15,North,Electronics,28042.87,2789.96,0.23,IND-10128,Pooja Singh
+2022-03-06,North,Electronics,11921.81,1938.06,0.11,IND-10129,Shubham Dixit
+2022-04-27,North,Electronics,18795.87,3037.96,0.2,IND-10130,Rahul Khanna
+2023-09-05,North,Furniture,5379.3,1225.22,0.03,IND-10131,Rekha Sharma
+2022-09-22,East,Office Supplies,16984.44,3821.51,0.12,IND-10132,Anjali Verma
+2023-09-18,Central,Office Supplies,15440.54,2143.8,0.16,IND-10133,Nisha Jain
+2022-12-24,West,Electronics,25970.75,2522.94,0.22,IND-10134,Arjun Yadav
+2022-04-15,North,Electronics,18680.49,2340.87,0.12,IND-10135,Anjali Verma
+2022-07-14,North,Electronics,7430.3,958.71,0.14,IND-10136,Manish Gupta
+2022-10-06,North,Electronics,7560.8,1128.89,0.14,IND-10137,Rahul Khanna
+2023-10-23,Central,Furniture,29707.61,6215.51,0.25,IND-10138,Deepak Joshi
+2023-09-03,West,Office Supplies,12052.82,2764.02,0.04,IND-10139,Manish Gupta
+2023-08-22,West,Electronics,9731.48,703.6,0.15,IND-10140,Shubham Dixit
+2022-07-28,Central,Office Supplies,27081.7,5660.37,0.04,IND-10141,Ravi Kumar
+2022-06-03,North,Furniture,29885.94,7332.51,0.2,IND-10142,Vishal Pandey
+2022-08-10,West,Electronics,19311.12,4697.65,0.05,IND-10143,Arjun Yadav
+2022-06-06,North,Furniture,1847.49,406.3,0.02,IND-10144,Deepak Joshi
+2022-10-14,East,Office Supplies,7325.56,1685.86,0.12,IND-10145,Ravi Kumar
+2022-05-30,West,Furniture,23810.19,2221.85,0.04,IND-10146,Deepak Joshi
+2022-07-02,South,Furniture,26776.07,2592.68,0.09,IND-10147,Pooja Singh
+2022-09-08,East,Office Supplies,15751.28,1957.81,0.18,IND-10148,Rahul Khanna
+2023-03-24,North,Furniture,4318.04,876.29,0.07,IND-10149,Suresh Mehta
+2023-05-09,East,Electronics,11923.67,1230.51,0.19,IND-10150,Ravi Kumar
+2023-08-31,Central,Office Supplies,20113.96,3381.46,0.04,IND-10151,Rahul Khanna
+2022-07-01,East,Furniture,19738.15,4358.21,0.17,IND-10152,Sneha Kapoor
+2022-10-22,Central,Office Supplies,7937.86,1646.31,0.06,IND-10153,Ravi Kumar
+2022-03-29,South,Electronics,16718.5,3388.4,0.21,IND-10154,Vishal Pandey
+2023-06-18,South,Electronics,4200.16,312.45,0.02,IND-10155,Arjun Yadav
+2022-07-06,North,Electronics,5507.56,1042.02,0.24,IND-10156,Rohit Desai
+2023-03-20,West,Office Supplies,26804.03,1781.23,0.2,IND-10157,Priya Nair
+2023-05-13,West,Electronics,13751.17,2487.13,0.13,IND-10158,Arjun Yadav
+2023-06-08,West,Electronics,8192.05,1741.4,0.0,IND-10159,Amit Shah
+2022-06-07,East,Electronics,28774.39,5188.77,0.05,IND-10160,Anjali Verma
+2022-02-05,South,Electronics,29564.78,6639.02,0.17,IND-10161,Manish Gupta
+2022-03-29,West,Office Supplies,22005.87,2038.46,0.06,IND-10162,Vishal Pandey
+2022-12-16,Central,Furniture,14247.44,3435.19,0.16,IND-10163,Suresh Mehta
+2023-04-25,South,Furniture,17640.67,2378.27,0.17,IND-10164,Amit Shah
+2023-08-12,West,Office Supplies,3560.65,495.48,0.04,IND-10165,Rohit Desai
+2022-12-07,Central,Electronics,19539.77,2352.04,0.25,IND-10166,Pooja Singh
+2023-08-19,Central,Office Supplies,16091.35,2605.2,0.16,IND-10167,Vishal Pandey
+2022-11-29,East,Furniture,13082.44,2788.42,0.16,IND-10168,Neha Patil
+2023-09-03,East,Electronics,29478.18,4264.5,0.01,IND-10169,Komal Bansal
+2022-05-06,East,Electronics,27842.2,3886.69,0.05,IND-10170,Kavita Rao
+2022-04-18,Central,Electronics,9027.06,1070.31,0.08,IND-10171,Deepak Joshi
+2023-02-16,Central,Electronics,11584.03,2557.88,0.06,IND-10172,Anjali Verma
+2022-07-13,East,Furniture,4884.33,596.29,0.19,IND-10173,Anjali Verma
+2023-07-11,South,Electronics,29823.95,3562.64,0.16,IND-10174,Vishal Pandey
+2022-04-05,Central,Office Supplies,26433.14,4926.25,0.21,IND-10175,Kavita Rao
+2023-03-14,South,Furniture,4872.48,440.87,0.12,IND-10176,Komal Bansal
+2022-10-10,North,Electronics,21973.05,4513.85,0.15,IND-10177,Harish Soni
+2023-12-10,Central,Office Supplies,15868.71,1540.13,0.03,IND-10178,Komal Bansal
+2022-04-06,North,Furniture,1931.3,249.45,0.16,IND-10179,Manish Gupta
+2023-04-10,East,Office Supplies,19903.17,3505.68,0.05,IND-10180,Pooja Singh
+2023-04-02,East,Office Supplies,15114.65,2483.1,0.24,IND-10181,Komal Bansal
+2022-02-15,North,Office Supplies,22177.93,4541.9,0.14,IND-10182,Deepak Joshi
+2022-07-14,Central,Office Supplies,23311.95,5202.81,0.08,IND-10183,Komal Bansal
+2022-09-23,Central,Electronics,19835.43,3516.23,0.05,IND-10184,Harish Soni
+2022-08-14,West,Furniture,29062.33,6120.93,0.08,IND-10185,Anjali Verma
+2022-04-28,North,Electronics,9823.92,913.65,0.06,IND-10186,Arjun Yadav
+2022-05-20,West,Electronics,9585.52,1978.24,0.01,IND-10187,Rohit Desai
+2022-04-13,North,Office Supplies,5894.37,584.64,0.01,IND-10188,Komal Bansal
+2022-01-28,South,Furniture,12691.78,2311.78,0.16,IND-10189,Rahul Khanna
+2023-01-24,South,Furniture,23266.84,2399.72,0.24,IND-10190,Suresh Mehta
+2022-04-19,East,Office Supplies,5956.39,1470.7,0.23,IND-10191,Kavita Rao
+2023-12-02,North,Office Supplies,14560.13,2096.87,0.24,IND-10192,Rekha Sharma
+2022-08-07,North,Electronics,9506.63,1152.97,0.22,IND-10193,Suresh Mehta
+2023-04-05,North,Office Supplies,6093.38,397.18,0.22,IND-10194,Priya Nair
+2022-08-17,South,Furniture,20953.58,4940.69,0.19,IND-10195,Komal Bansal
+2022-11-03,East,Furniture,14668.22,1557.25,0.14,IND-10196,Vishal Pandey
+2023-06-25,Central,Furniture,11261.92,1909.06,0.22,IND-10197,Ravi Kumar
+2022-07-04,East,Office Supplies,21549.23,5159.33,0.11,IND-10198,Anjali Verma
+2023-06-01,South,Office Supplies,13127.18,2344.33,0.15,IND-10199,Kavita Rao
+2023-01-13,South,Office Supplies,12260.66,1960.65,0.18,IND-10200,Suresh Mehta
+2023-06-13,West,Furniture,17000.9,3767.95,0.03,IND-10201,Rekha Sharma
+2022-03-10,North,Furniture,17439.17,966.94,0.04,IND-10202,Anjali Verma
+2022-10-28,Central,Office Supplies,22047.52,2093.21,0.02,IND-10203,Rahul Khanna
+2023-04-29,West,Office Supplies,21524.37,2857.52,0.0,IND-10204,Neha Patil
+2022-06-23,East,Electronics,22939.07,3745.94,0.19,IND-10205,Priya Nair
+2023-01-16,Central,Office Supplies,3767.01,723.42,0.17,IND-10206,Harish Soni
+2022-03-07,West,Office Supplies,11017.85,2496.07,0.23,IND-10207,Neha Patil
+2022-04-14,South,Electronics,24872.08,4648.04,0.15,IND-10208,Komal Bansal
+2023-05-28,East,Electronics,2563.19,594.21,0.06,IND-10209,Suresh Mehta
+2023-06-30,South,Office Supplies,21699.91,1791.6,0.1,IND-10210,Sneha Kapoor
+2022-03-23,West,Electronics,7409.89,634.11,0.21,IND-10211,Manish Gupta
+2022-06-26,South,Furniture,6744.21,794.7,0.1,IND-10212,Vishal Pandey
+2023-09-27,North,Electronics,19938.55,3916.92,0.25,IND-10213,Neha Patil
+2023-11-13,West,Electronics,26812.42,5548.6,0.06,IND-10214,Komal Bansal
+2022-08-12,South,Electronics,8991.65,815.83,0.01,IND-10215,Rahul Khanna
+2023-05-07,East,Office Supplies,4434.19,467.17,0.23,IND-10216,Komal Bansal
+2022-08-10,North,Office Supplies,7281.43,822.22,0.09,IND-10217,Anjali Verma
+2023-03-16,Central,Furniture,3388.06,692.63,0.15,IND-10218,Rahul Khanna
+2023-03-03,East,Office Supplies,26045.34,4806.33,0.08,IND-10219,Manish Gupta
+2023-02-17,East,Electronics,23470.93,4906.39,0.19,IND-10220,Suresh Mehta
+2022-03-27,North,Furniture,16306.85,1869.2,0.15,IND-10221,Suresh Mehta
+2023-07-17,Central,Electronics,19195.07,2614.02,0.05,IND-10222,Pooja Singh
+2022-11-17,South,Electronics,20226.89,1082.22,0.05,IND-10223,Amit Shah
+2022-06-23,East,Electronics,10146.31,1624.99,0.07,IND-10224,Rekha Sharma
+2022-04-18,North,Furniture,14661.77,2766.28,0.19,IND-10225,Nisha Jain
+2023-12-24,North,Office Supplies,18692.49,1774.47,0.22,IND-10226,Sneha Kapoor
+2023-07-05,Central,Furniture,4319.05,577.87,0.05,IND-10227,Arjun Yadav
+2023-09-13,Central,Electronics,19068.48,1482.99,0.24,IND-10228,Priya Nair
+2023-01-15,South,Electronics,22410.5,4314.96,0.18,IND-10229,Amit Shah
+2023-05-27,Central,Electronics,19630.52,2543.18,0.15,IND-10230,Rekha Sharma
+2023-05-04,East,Furniture,7550.88,1396.77,0.02,IND-10231,Komal Bansal
+2022-12-21,East,Office Supplies,22204.05,4306.27,0.16,IND-10232,Ravi Kumar
+2023-11-10,South,Electronics,11690.36,994.54,0.19,IND-10233,Deepak Joshi
+2023-08-13,Central,Electronics,20966.02,5012.45,0.15,IND-10234,Manish Gupta
+2023-01-10,West,Office Supplies,6681.43,1502.52,0.23,IND-10235,Komal Bansal
+2023-07-04,East,Electronics,7369.28,1338.79,0.11,IND-10236,Priya Nair
+2022-08-11,Central,Electronics,4149.57,326.05,0.01,IND-10237,Harish Soni
+2022-12-27,South,Electronics,18846.36,3726.36,0.16,IND-10238,Deepak Joshi
+2022-07-01,West,Office Supplies,2012.58,219.02,0.21,IND-10239,Sneha Kapoor
+2023-02-11,South,Office Supplies,14503.69,1552.2,0.08,IND-10240,Suresh Mehta
+2022-04-11,East,Furniture,19695.31,1741.58,0.16,IND-10241,Rohit Desai
+2022-06-14,West,Furniture,16458.72,1015.31,0.02,IND-10242,Neha Patil
+2023-09-27,North,Electronics,6443.69,1285.87,0.18,IND-10243,Suresh Mehta
+2023-06-16,Central,Electronics,7044.12,978.31,0.17,IND-10244,Rahul Khanna
+2022-07-14,South,Office Supplies,29681.67,2559.24,0.17,IND-10245,Manish Gupta
+2023-03-11,Central,Office Supplies,8531.0,1561.48,0.07,IND-10246,Vishal Pandey
+2022-10-31,West,Office Supplies,13514.67,1854.06,0.03,IND-10247,Priya Nair
+2022-06-27,South,Office Supplies,18757.83,3376.55,0.04,IND-10248,Shubham Dixit
+2022-04-07,North,Furniture,6356.39,796.02,0.01,IND-10249,Suresh Mehta
+2023-12-23,East,Furniture,6014.68,500.61,0.01,IND-10250,Rahul Khanna
+2023-12-18,North,Electronics,25425.53,1533.91,0.17,IND-10251,Sneha Kapoor
+2022-11-15,South,Office Supplies,26877.09,3619.14,0.01,IND-10252,Rahul Khanna
+2023-02-27,Central,Electronics,6563.0,856.99,0.02,IND-10253,Kavita Rao
+2022-03-21,East,Furniture,8853.16,861.81,0.07,IND-10254,Deepak Joshi
+2022-01-21,East,Electronics,16777.25,2090.91,0.08,IND-10255,Nisha Jain
+2022-02-25,Central,Furniture,5589.33,1142.88,0.23,IND-10256,Kavita Rao
+2023-08-29,Central,Furniture,8362.69,696.49,0.09,IND-10257,Rahul Khanna
+2023-08-21,South,Electronics,11125.32,1332.29,0.08,IND-10258,Ravi Kumar
+2023-06-17,West,Furniture,23231.59,1733.59,0.24,IND-10259,Komal Bansal
+2023-10-23,West,Office Supplies,4132.35,973.87,0.08,IND-10260,Sneha Kapoor
+2023-11-10,West,Furniture,4875.75,757.17,0.12,IND-10261,Ravi Kumar
+2022-02-01,North,Furniture,26262.06,5992.85,0.01,IND-10262,Suresh Mehta
+2023-12-08,West,Furniture,20684.59,2262.59,0.13,IND-10263,Harish Soni
+2023-05-08,North,Furniture,10896.49,641.11,0.08,IND-10264,Komal Bansal
+2022-08-07,Central,Office Supplies,14975.46,3728.63,0.08,IND-10265,Pooja Singh
+2022-08-16,West,Furniture,25023.05,4882.11,0.24,IND-10266,Anjali Verma
+2023-02-03,South,Office Supplies,15001.96,1037.32,0.01,IND-10267,Amit Shah
+2022-10-18,East,Electronics,19840.91,4592.24,0.14,IND-10268,Suresh Mehta
+2023-08-08,Central,Furniture,29790.68,6164.47,0.07,IND-10269,Nisha Jain
+2022-01-13,East,Office Supplies,22045.74,2979.31,0.21,IND-10270,Deepak Joshi
+2023-08-10,Central,Office Supplies,23323.95,4165.28,0.24,IND-10271,Rohit Desai
+2022-06-14,North,Office Supplies,6232.02,460.02,0.11,IND-10272,Manish Gupta
+2022-03-23,East,Electronics,11553.07,2213.45,0.17,IND-10273,Suresh Mehta
+2022-01-08,North,Furniture,6853.21,661.88,0.18,IND-10274,Sneha Kapoor
+2022-03-30,East,Electronics,14060.44,3419.9,0.15,IND-10275,Rahul Khanna
+2022-08-25,North,Office Supplies,5779.33,930.32,0.23,IND-10276,Arjun Yadav
+2022-01-18,West,Electronics,3705.51,859.77,0.21,IND-10277,Priya Nair
+2023-07-24,West,Furniture,13473.72,2087.38,0.17,IND-10278,Rahul Khanna
+2022-09-18,West,Electronics,5284.1,982.76,0.02,IND-10279,Rahul Khanna
+2023-08-02,East,Furniture,28333.16,6302.51,0.19,IND-10280,Rohit Desai
+2022-12-23,South,Office Supplies,20162.19,2606.83,0.05,IND-10281,Sneha Kapoor
+2022-07-18,Central,Electronics,20081.97,4712.49,0.25,IND-10282,Sneha Kapoor
+2022-10-22,Central,Office Supplies,17819.93,2410.8,0.07,IND-10283,Rohit Desai
+2023-08-30,East,Furniture,5915.05,1228.82,0.19,IND-10284,Shubham Dixit
+2023-12-26,South,Furniture,15820.94,2789.95,0.19,IND-10285,Manish Gupta
+2023-05-24,Central,Electronics,15508.0,3845.39,0.05,IND-10286,Priya Nair
+2022-03-11,West,Furniture,5689.72,883.77,0.02,IND-10287,Shubham Dixit
+2022-01-19,South,Furniture,5349.46,1061.21,0.15,IND-10288,Arjun Yadav
+2022-06-09,West,Electronics,12098.48,2988.11,0.07,IND-10289,Amit Shah
+2022-11-12,East,Office Supplies,29042.68,2368.77,0.09,IND-10290,Harish Soni
+2022-05-07,North,Electronics,4675.52,263.79,0.11,IND-10291,Suresh Mehta
+2022-12-07,East,Furniture,9378.77,2134.37,0.07,IND-10292,Deepak Joshi
+2023-05-21,Central,Office Supplies,13095.89,1406.15,0.21,IND-10293,Komal Bansal
+2022-02-07,East,Electronics,22975.18,3918.33,0.01,IND-10294,Rekha Sharma
+2022-02-07,Central,Office Supplies,28003.54,6762.62,0.14,IND-10295,Deepak Joshi
+2022-07-22,East,Furniture,15254.35,884.06,0.03,IND-10296,Ravi Kumar
+2023-11-27,North,Electronics,28290.85,4677.95,0.05,IND-10297,Shubham Dixit
+2022-05-28,North,Electronics,13387.52,1628.14,0.09,IND-10298,Neha Patil
+2023-04-27,East,Office Supplies,22559.06,5477.63,0.07,IND-10299,Rahul Khanna
